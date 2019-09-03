@@ -42,4 +42,7 @@ def using_delete (instructors, name)
   instructors.delete("Steven")
 end
 
+def using_delete_at (famous_robots, the_index)
+  famous_robots.delete_at(the_index)
+end
 
