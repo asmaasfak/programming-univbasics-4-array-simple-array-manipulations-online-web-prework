@@ -33,3 +33,15 @@ end
 def using_uniq (haircuts)
   haircuts.uniq
 end
+
+def using_flatten (instruments)
+  instruments.flatten
+end
+
+def using_delete (instructors, "Steven")
+  instructors.delete("Steven")
+end
+
+def using_delete_at (famous_robots, 2)
+  famous_robots.delete_at(2)
+end
