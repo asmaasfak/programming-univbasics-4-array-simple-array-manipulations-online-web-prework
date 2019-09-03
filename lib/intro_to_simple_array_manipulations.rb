@@ -10,6 +10,6 @@ def using_pop (continents)
   continents.pop
 end
 
-def using_pop_with_args (dog_breeds)
+def pop_with_args (dog_breeds)
   dog_breeds.pop(2)
 end
